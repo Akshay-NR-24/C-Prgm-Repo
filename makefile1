@@ -2,7 +2,7 @@ ABC.exe:main.o big2.o fact.o big3.o fibo.o pali.o rev.o sort.o sum.o
 	gcc -o ABC.exe main.o big2.o fact.o big3.o fibo.o pali.o rev.o sort.o sum.o
 
 main.o:main.c
-	gcc -c main.c
+	gcc -c main.c.
 big2.o:big2.c
 	gcc -c big2.c
 fact.o:fact.c
